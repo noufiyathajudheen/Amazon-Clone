@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+body {
+    background-color: #232f3e;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.registration-section{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+.registration-section img {
+    width: 200px;
+    filter: drop-shadow(0 0 3px #46464682);
+}
+.registration-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #131921;
+    border-radius:15px;
+    color: #fff;
+    padding: 30px;
+    width: 450px;
+}
+.input-text {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.input-text .input-field {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+.input-select select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+.input-select select option {
+    color-scheme: dark;
+}
+.input-text .input-file {
+    display: none;
+}
+.input-text .file-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ffe0b2;
+}
+.submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: #fff;
+    width: 250px;
+    cursor: pointer;
+}
+.input-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.input-check input {
+    accent-color: #ff9900;
+}
+.input-check a {
+    color: #ff9900;
+}

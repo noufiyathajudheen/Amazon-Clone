@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="registration-section">
+        <img
+          src="https://zeevector.com/wp-content/uploads/Amazon-Logo-White@zeevector.png"
+          alt="Amazon"
+        />
+        <form action="">
+          <div class="input-text">
+            <input
+              class="input-field"
+              required
+              type="text"
+              placeholder="First name"
+            />
+            <input
+              class="input-field"
+              required
+              type="text"
+              placeholder="Last name"
+            />
+          </div>
+          <div class="input-text">
+            <input
+              class="input-field"
+              required
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-text">
+            <input
+              class="input-field"
+              required
+              type="text"
+              placeholder="Company name"
+            />
+          </div>
+          <div class="input-select">
+            <select id="category" required name="category">
+              <option value="" disabled selected>Select a category</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Fashion and Apparel">Fashion and Apparel</option>
+              <option value="Home and Kitchen">Home and Kitchen</option>
+              <option value="Health and Beauty">Health and Beauty</option>
+              <option value="Sports and Outdoors">Sports and Outdoors</option>
+              <option value="Toys and Games">Toys and Games</option>
+              <option value="Books and Stationery">Books and Stationery</option>
+              <option value="Automotive">Automotive</option>
+              <option value="Pet Supplies">Pet Supplies</option>
+              <option value="Home Improvement">Home Improvement</option>
+              <option value="Jewelry and Watches">Jewelry and Watches</option>
+              <option value="Baby and Maternity">Baby and Maternity</option>
+              <option value="Arts and Crafts">Arts and Crafts</option>
+              <option value="Groceries and Food">Groceries and Food</option>
+              <option value="Electronics Accessories">
+                Electronics Accessories
+              </option>
+              <option value="Gifts and Novelty">Gifts and Novelty</option>
+            </select>
+          </div>
+          <div class="input-text">
+            <input
+              class="input-file"
+              id="file"
+              type="file"
+              accept="application/pdf"
+            />
+            <button class="file-btn">
+              <label for="file">Upload your seller Certificate</label>
+            </button>
+          </div>
+          <div class="input-check">
+            <input id="accept" type="checkbox" />
+            <label for="accept">
+              I hereby accept the
+              <a href="">terms and conditions.</a>
+            </label>
+          </div>
+          <div class="input-text">
+            <button type="submit" class="submit-btn">
+              Register <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

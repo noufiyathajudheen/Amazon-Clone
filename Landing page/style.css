@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+body {
+    background-color: #e3e6e6;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-section{
+    width:100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 50px ;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.347)),url('https://img.freepik.com/free-photo/front-view-woman-with-shopping-bag-concept_23-2148674158.jpg?w=1480&t=st=1690614761~exp=1690615361~hmac=5c148ce276b93466a37ee690f06d49d9f16da78ef777bff3f735dc1f917027e5');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.content-section img {
+    width: 200px;
+    filter: drop-shadow(0 0 3px #46464682);
+}
+.content-section p {
+    font-size: 20px;
+    text-align: center;
+    filter: drop-shadow(0 0 3px #46464682);
+}
+.content-section .shop-btn {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    transition: 0.25s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.content-section .shop-btn a, 
+.content-section .shop-btn a:visited {
+    text-decoration: none;
+    color: white;
+}
+.content-section .shop-btn:hover {
+    background-color: #ff9900d1;
+    box-shadow: 0 0 10px #46464682;
+}
+.footer-section{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+}
+.footer-section p {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.footer-section a {
+    color: #ff9900;
+}
